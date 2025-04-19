@@ -18,6 +18,6 @@ https://github.com/solarreader-core/solarreader
 | Device Model    | Type          | Connection |
 |-----------------|---------------|------------|
 | Shelly Switch 1 | SHSW-1        | HTTP       |
-| helly 2.5       | SHSW-25       | HTTP       |
+| Shelly 2.5      | SHSW-25       | HTTP       |
 | Shelly Plus 1   | SNSW-001X16EU | HTTP       |
 
