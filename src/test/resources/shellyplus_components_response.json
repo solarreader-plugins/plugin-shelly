@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "key": "ble",
+      "status": {},
+      "config": {
+        "enable": true,
+        "rpc": {
+          "enable": true
+        },
+        "observer": {
+          "enable": false
+        }
+      }
+    },
+    {
+      "key": "cloud",
+      "status": {
+        "connected": false
+      },
+      "config": {
+        "enable": false,
+        "server": "iot.shelly.cloud:6012/jrpc"
+      }
+    },
+    {
+      "key": "input:0",
+      "status": {
+        "id": 0,
+        "state": false
+      },
+      "config": {
+        "id": 0,
+        "name": null,
+        "type": "switch",
+        "enable": true,
+        "invert": false,
+        "factory_reset": true
+      }
+    },
+    {
+      "key": "mqtt",
+      "status": {
+        "connected": false
+      },
+      "config": {
+        "enable": false,
+        "server": null,
+        "client_id": "shellyplus1pm-d48afc77d16c",
+        "user": null,
+        "topic_prefix": "shellyplus1pm-d48afc77d16c",
+        "rpc_ntf": true,
+        "status_ntf": false,
+        "use_client_cert": false,
+        "enable_rpc": true,
+        "enable_control": true
+      }
+    }
+  ],
+  "cfg_rev": 4,
+  "offset": 0,
+  "total": 8
+}

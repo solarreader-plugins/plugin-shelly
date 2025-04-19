@@ -1,0 +1,98 @@
+{
+  "wifi_sta": {
+    "connected": true,
+    "ssid": "WLANSSID",
+    "ip": "192.168.178.202",
+    "rssi": -75
+  },
+  "cloud": {
+    "enabled": true,
+    "connected": true
+  },
+  "mqtt": {
+    "connected": false
+  },
+  "time": "09:42",
+  "unixtime": 1711183367,
+  "serial": 36366,
+  "has_update": true,
+  "mac": "ABCDEFGHIJ",
+  "cfg_changed_cnt": 7,
+  "actions_stats": {
+    "skipped": 0
+  },
+  "rollers": [
+    {
+      "state": "stop",
+      "source": "schedule",
+      "power": 0.00,
+      "is_valid": true,
+      "safety_switch": false,
+      "overtemperature": false,
+      "stop_reason": "normal",
+      "last_direction": "open",
+      "current_pos": 100,
+      "calibrating": false,
+      "positioning": true
+    }
+  ],
+  "meters": [
+    {
+      "power": 0.00,
+      "overpower": 0.00,
+      "is_valid": true,
+      "timestamp": 1711186967,
+      "counters": [
+        0.000,
+        0.000,
+        0.000
+      ],
+      "total": 18384
+    },
+    {
+      "power": 0.00,
+      "overpower": 0.00,
+      "is_valid": true,
+      "timestamp": 1711186967,
+      "counters": [
+        0.000,
+        0.000,
+        0.000
+      ],
+      "total": 19352
+    }
+  ],
+  "inputs": [
+    {
+      "input": 0,
+      "event": "",
+      "event_cnt": 0
+    },
+    {
+      "input": 0,
+      "event": "",
+      "event_cnt": 0
+    }
+  ],
+  "temperature": 50.68,
+  "overtemperature": false,
+  "tmp": {
+    "tC": 50.68,
+    "tF": 123.22,
+    "is_valid": true
+  },
+  "temperature_status": "Normal",
+  "update": {
+    "status": "pending",
+    "has_update": true,
+    "new_version": "20230913-112234/v1.14.0-gcb84623",
+    "old_version": "20230503-095750/v1.13.0-g9aed950",
+    "beta_version": "20231107-163214/v1.14.1-rc1-g0617c15"
+  },
+  "ram_total": 50720,
+  "ram_free": 36644,
+  "fs_size": 233681,
+  "fs_free": 142568,
+  "voltage": 228.65,
+  "uptime": 13543784
+}

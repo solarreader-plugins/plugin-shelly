@@ -1,0 +1,37 @@
+{
+  "device": {
+    "name": null,
+    "mac": "D48AFC77D16C",
+    "fw_id": "20231031-152218/1.0.7-g5db02bd",
+    "discoverable": true,
+    "eco_mode": false,
+    "addon_type": null
+  },
+  "location": {
+    "tz": "Europe/Berlin",
+    "lat": 49.977900,
+    "lon": 7.527100
+  },
+  "debug": {
+    "level": 2,
+    "file_level": null,
+    "mqtt": {
+      "enable": false
+    },
+    "websocket": {
+      "enable": false
+    },
+    "udp": {
+      "addr": null
+    }
+  },
+  "ui_data": {},
+  "rpc_udp": {
+    "dst_addr": null,
+    "listen_port": null
+  },
+  "sntp": {
+    "server": "time.google.com"
+  },
+  "cfg_rev": 4
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Testgeraet",
+  "id": "shellyplus1pm-d48afc77d16c",
+  "mac": "D48AFC77D16C",
+  "slot": 1,
+  "model": "SNSW-001P16EU",
+  "gen": 2,
+  "fw_id": "20231031-152218/1.0.7-g5db02bd",
+  "ver": "1.0.7",
+  "app": "Plus1PM",
+  "auth_en": false,
+  "auth_domain": null
+}

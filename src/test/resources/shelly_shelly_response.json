@@ -1,0 +1,12 @@
+{
+  "type": "SHSW-25",
+  "mac": "ABCDEFGHIJ",
+  "auth": false,
+  "fw": "20230503-095750/v1.13.0-g9aed950",
+  "discoverable": false,
+  "longid": 1,
+  "num_outputs": 2,
+  "num_meters": 2,
+  "num_rollers": 1,
+  "mode": "roller"
+}
