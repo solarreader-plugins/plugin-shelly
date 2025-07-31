@@ -27,11 +27,9 @@ import de.schnippsche.solarreader.backend.command.SendCommand;
 import de.schnippsche.solarreader.backend.connection.general.ConnectionFactory;
 import de.schnippsche.solarreader.backend.connection.network.HttpConnection;
 import de.schnippsche.solarreader.backend.connection.network.HttpConnectionFactory;
-import de.schnippsche.solarreader.backend.protocol.KnownProtocol;
 import de.schnippsche.solarreader.backend.provider.AbstractHttpProvider;
 import de.schnippsche.solarreader.backend.provider.CommandProviderProperty;
 import de.schnippsche.solarreader.backend.provider.ProviderProperty;
-import de.schnippsche.solarreader.backend.provider.SupportedInterface;
 import de.schnippsche.solarreader.backend.table.Table;
 import de.schnippsche.solarreader.backend.util.Setting;
 import de.schnippsche.solarreader.database.Activity;
@@ -40,7 +38,6 @@ import de.schnippsche.solarreader.frontend.ui.HtmlWidth;
 import de.schnippsche.solarreader.frontend.ui.UIInputElementBuilder;
 import de.schnippsche.solarreader.frontend.ui.UIList;
 import de.schnippsche.solarreader.frontend.ui.UITextElementBuilder;
-import de.schnippsche.solarreader.plugin.PluginMetadata;
 import java.io.IOException;
 import java.text.MessageFormat;
 import java.time.LocalTime;
@@ -62,15 +59,6 @@ import org.tinylog.Logger;
  * communication with Shelly devices, enabling easier integration and control of Shelly devices
  * within a broader system.
  */
-@PluginMetadata(
-    name = "Shelly",
-    version = "1.0.1",
-    author = "Stefan Töngi",
-    url = "https://github.com/solarreader-plugins/plugin-Shelly",
-    svgImage = "shelly.svg",
-    supportedInterfaces = {SupportedInterface.NONE},
-    usedProtocol = KnownProtocol.HTTP,
-    supports = "Shelly Gen1, Shelly Gen2")
 public class Shelly extends AbstractHttpProvider {
 
   private static final String UNKNOWN = "unknown";
